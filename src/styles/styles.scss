@@ -1,0 +1,74 @@
+/* Variables */
+$vin-blue: #5bb7db;
+$vin-green: #6f12b0;
+$vin-red: #ff0000;
+
+/* Styles */
+body {
+  font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 1.4em;
+  background-color: #EEEEEE;
+  color: #4d4d4d;
+  background-color: #EEEEEE;
+  margin: 0 auto;
+  background-color: #EEEEEE;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  font-weight: 300;
+}
+
+h2 {
+  color: $vin-blue;
+}
+
+.savings {
+  color: $vin-green;
+}
+
+.loss {
+  color: $vin-red;
+}
+
+input.small {
+  width: 46px;
+}
+
+td.fuel-savings-label {
+  width: 175px;
+}
+
+a.selectors.btn {
+  .active {
+  }
+}
+
+.slider-container {
+  margin: 0 auto;
+  width: 60%;
+  color: #333;
+  background: black;
+}
+
+// For TED Slogan, build on linux
+@font-face {
+  font-family: 'HWxingkai';
+  src: url('./font/HWxingkai.eot');
+  src: url('./font/HWxingkai.eot?#font-spider') format('embedded-opentype'),
+  url('./font/HWxingkai.woff') format('woff'),
+  url('./font/HWxingkai.ttf') format('truetype'),
+  url('./font/HWxingkai.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// disallow user copy/print special content
+.noprint {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+@media print {
+  .noprint {
+    display: none;
+  }
+}

@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fba66d94-aff7-45a5-be2f-fe88d43aa27e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/background.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/earth.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/flag.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/great-wall.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/react-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/supervision-title.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/top-light.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/univ-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/west-gate.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/bootstrap/fonts/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/font/HWxingkai.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/font/HWxingkai.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CONTRIBUTORS.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appveyor.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/FAQ.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/actions/dataAction.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/actions/questionsActions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/actions/semestersActions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/actions/supervisionsActions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/actions/testpapersActions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/actions/types.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/api/delay.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/api/mockAddTestApi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/api/mockExamApi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/api/mockExampaperApi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/businessLogic/DeletePrompt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/businessLogic/assignmentsHelper.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/businessLogic/cells.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/businessLogic/dateHelper.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/businessLogic/dateHelper.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/businessLogic/exampaperHelper.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/businessLogic/fuelSavingsCalculator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/businessLogic/fuelSavingsCalculator.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/businessLogic/itemHelper.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/businessLogic/mathHelper.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/businessLogic/mathHelper.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/businessLogic/mediasHelper.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/businessLogic/numberFormatter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/businessLogic/numberFormatter.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/businessLogic/reduxFormHelper.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/businessLogic/requireAuthentication.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/businessLogic/testpaperHelper.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/businessLogic/utils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/question/AutoCompleteExmapleSimple.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/question/BlankForm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/question/EngBlankForm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/question/EngOptionForm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/question/EngQuestionDetail.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/question/EngQuestionPropertyEditDialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/question/EngSelectionForm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/question/EnglishQuestionStemEditForm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/question/JudgmentForm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/question/KnowledgeDialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/question/KnowledgeQuestionRelationTab.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/question/MultiselectionForm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/question/QuestionDeleteDialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/question/QuestionDetailTab.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/question/QuestionList.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/question/QuestionListPage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/question/QuestionListTable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/question/QuestionPropertyEditDialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/question/QuestionRelationEditPage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/question/SelectionForm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/question/TestpaperQuestionRelationTab.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/question/TestpapersDialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/question/TestpapersDialogForm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/question/TestpapersQuestionsTable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/testpapers/BlockFormDialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/testpapers/BlockTab.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/testpapers/SectionFormDialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/testpapers/SectionTab.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/testpapers/TestpaperBlankDetail.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/testpapers/TestpaperCreatePage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/testpapers/TestpaperDropDownMenu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/testpapers/TestpaperEditPage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/testpapers/TestpaperEnglishDetail.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/testpapers/TestpaperForm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/testpapers/TestpaperJudgeDetail.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/testpapers/TestpaperPage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/testpapers/TestpaperQuestionsList.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/testpapers/TestpaperSelectionDetail.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/testpapers/TestpaperStructureContentListRow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/testpapers/TestpapersListPage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/testpapers/TestpapersTable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/constants/actionTypes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/constants/config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/constants/numbers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/constants/strings.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/constants/validators.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/reducers/ajaxStatusReducer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/reducers/assessmentsReducer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/reducers/assignmentsReducer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/reducers/authReducer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/reducers/dataReducer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/reducers/exampapersReducer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/reducers/examsReducer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/reducers/fuelSavingsReducer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/reducers/fuelSavingsReducer.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/reducers/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/reducers/initialState.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/reducers/knowledgeReducer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/reducers/mediasReducer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/reducers/questionsReducer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/reducers/semestersReducer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/reducers/subjectsReducer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/reducers/supervisionsReducer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/reducers/testpapersReducer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/routes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/store/configureStore.dev.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/store/configureStore.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/store/configureStore.prod.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/store/store.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/about-page.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/bootstrap/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/bootstrap/css/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/bootstrap/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/bootstrap/css/bootstrap.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/bootstrap/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/bootstrap/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/font/HWxingkai.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/font/HWxingkai.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/pagination.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/side-menu.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles/styles.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/build.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/buildHtml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/chalkConfig.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/distServer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/removeDemo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/srcServer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/startMessage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/testSetup.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpack.config.dev.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpack.config.prod.js" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileColors">
+    <fileColor scope="Non-Project Files (Material Default)" color="2E3C43" />
+    <fileColor scope="Non-Project Files (Material Darker)" color="323232" />
+    <fileColor scope="Non-Project Files (Material Lighter)" color="eae8e8" />
+    <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="testpaperHelper.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/businessLogic/testpaperHelper.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestpaperCreatePage.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/testpapers/TestpaperCreatePage.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="validators.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/constants/validators.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ajaxStatusReducer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/reducers/ajaxStatusReducer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="assessmentsReducer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/reducers/assessmentsReducer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="assignmentsReducer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/reducers/assignmentsReducer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dataReducer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/reducers/dataReducer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mediasReducer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/reducers/mediasReducer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="supervisionsReducer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/reducers/supervisionsReducer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2580">
+              <caret line="129" column="9" lean-forward="false" selection-start-line="129" selection-start-column="9" selection-end-line="129" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Link</find>
+      <find>Lin</find>
+      <find>zha</find>
+      <find>zhao</find>
+      <find>zhaoyu</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/actions/dataAction.js" />
+        <option value="$PROJECT_DIR$/src/actions/semestersActions.js" />
+        <option value="$PROJECT_DIR$/src/actions/testpapersActions.js" />
+        <option value="$PROJECT_DIR$/src/actions/supervisionsActions.js" />
+        <option value="$PROJECT_DIR$/src/businessLogic/assignmentsHelper.js" />
+        <option value="$PROJECT_DIR$/src/businessLogic/cells.js" />
+        <option value="$PROJECT_DIR$/src/businessLogic/mediasHelper.js" />
+        <option value="$PROJECT_DIR$/src/businessLogic/testpaperHelper.js" />
+        <option value="$PROJECT_DIR$/src/components/testpapers/TestpaperCreatePage.js" />
+        <option value="$PROJECT_DIR$/src/constants/validators.js" />
+        <option value="$PROJECT_DIR$/src/reducers/ajaxStatusReducer.js" />
+        <option value="$PROJECT_DIR$/src/reducers/assessmentsReducer.js" />
+        <option value="$PROJECT_DIR$/src/reducers/assignmentsReducer.js" />
+        <option value="$PROJECT_DIR$/src/reducers/dataReducer.js" />
+        <option value="$PROJECT_DIR$/src/reducers/mediasReducer.js" />
+        <option value="$PROJECT_DIR$/src/reducers/supervisionsReducer.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="onlinetest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="onlinetest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
+    <property name="nodejs_interpreter_path" value="$USER_HOME$/.nvm/versions/node/v6.10.2/bin/node" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="FullScreen" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.selected.package.standard" value="$PROJECT_DIR$/node_modules/standard" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fba66d94-aff7-45a5-be2f-fe88d43aa27e" name="Default" comment="" />
+      <created>1507703902686</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1507703902686</updated>
+      <workItem from="1507703905111" duration="209000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="209000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Reviews" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="News Feed" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/actions/dataAction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/semestersActions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/testpapersActions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/supervisionsActions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/businessLogic/assignmentsHelper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/businessLogic/cells.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/businessLogic/mediasHelper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/businessLogic/testpaperHelper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/testpapers/TestpaperCreatePage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/constants/validators.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/ajaxStatusReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/assessmentsReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/assignmentsReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/dataReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/mediasReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/supervisionsReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2580">
+          <caret line="129" column="9" lean-forward="false" selection-start-line="129" selection-start-column="9" selection-end-line="129" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

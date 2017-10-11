@@ -1,0 +1,81 @@
+.rc-pagination {
+  font-family: "Roboto", sans-serif;
+  list-style: none;
+  padding: 8px;
+  .rc-pagination-item,
+  .rc-pagination-prev,
+  .rc-pagination-next,
+  .rc-pagination-jump-prev,
+  .rc-pagination-jump-next,
+  .rc-pagination-jump-prev:hover,
+  .rc-pagination-jump-next:hover {
+    border: 0;
+    border-radius: 50%;
+    color: rgba(33, 33, 33, 1);
+    display: inline-block;
+    padding: 6px;
+    margin: 0 1px;
+    transition: .15s ease-in;
+    cursor: pointer;
+    a {
+      font-family: "Roboto", sans-serif;
+      list-style: none;
+      font-size: 14px;
+      text-align: center;
+      line-height: 30px;
+      min-width: 40px;
+      margin: 0;
+      color: #000000;
+    }
+    &:hover {
+      color: #fff;
+      background: rgba(233, 30, 99, .12);
+      a {
+        color: #000000;
+      }
+    }
+    .rc-pagination-jump-prev:hover:after,
+    .rc-pagination-jump-next:hover:after {
+      a {
+        color: #fff;
+      }
+    }
+  }
+  .rc-pagination-item-active, .rc-pagination-item-active:hover {
+    background: #E91E63;
+    a {
+      color: #FFFFFF;
+      &:hover {
+        color: #ffffff;
+      }
+    }
+  }
+
+  .rc-pagination-jump-prev:after,
+  .rc-pagination-jump-next:after,
+  .rc-pagination-jump-prev:hover:after,
+  .rc-pagination-jump-next:hover:after {
+    color: #000000;
+  }
+  .rc-pagination-jump-prev:hover:after {
+    content: "«";
+  }
+  .rc-pagination-jump-next:hover:after {
+    content: "»";
+  }
+  .pagination-number,
+  .rc-pagination-jump-prev:after,
+  .rc-pagination-jump-next:after,
+  .rc-pagination-jump-prev:hover:after,
+  .rc-pagination-jump-next:hover:after,
+  .rc-pagination-prev a:after,
+  .rc-pagination-next a:after {
+    vertical-align: middle;
+  }
+  .rc-pagination-disabled, .rc-pagination-disabled:hover {
+    cursor: not-allowed;
+    a {
+      color: #ccc;
+    }
+  }
+}
